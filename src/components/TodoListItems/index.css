@@ -1,0 +1,53 @@
+.taskList {
+    list-style-type: none;  
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 16px 30px;
+    margin: 16px 0;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.taskItem:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.taskTitle {
+    font-size: 1.5em;
+    margin: 0 0 8px;
+    color: #333;
+}
+
+.taskDescription {
+    color: #555;
+    margin: 0 0 10px;
+}
+
+.high {
+    background-color: #f44336; /* Red */
+}
+
+.medium {
+    background-color: #ff9800; /* Orange */
+}
+
+.low {
+    background-color: #4caf50; /* Green */
+}
+
+.dueDate {
+    display: block;
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #888;
+}

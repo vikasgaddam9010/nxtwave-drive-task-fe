@@ -1,0 +1,24 @@
+
+
+.form-container {
+    background-color: #f8f9fa; /* Light background for form */
+    border: 1px solid #dee2e6; /* Border around the form */
+    transition: all 0.3s; /* Smooth transition */
+}
+
+.form-container:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+}
+
+.head {
+    font-family: 'Roboto', sans-serif; /* Custom font */
+    text-align: center; /* Center the heading */
+}
+
+.form-label {
+    font-weight: bold; /* Make labels bold */
+}
+
+.btn {
+    font-weight: bold; /* Make button text bold */
+}
